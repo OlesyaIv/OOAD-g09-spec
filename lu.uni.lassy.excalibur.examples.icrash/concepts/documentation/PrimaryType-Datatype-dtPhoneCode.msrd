@@ -1,0 +1,12 @@
+/*
+@author ����� ���������
+@date Fri Dec 02 16:27:53 GMT+03:00 2016
+*/
+
+
+@@Primary Type Datatype icrash.concepts.primarytypes.datatypes.dtPhoneCode
+@description "String phone code which used by administrators and coordinators to login by SMS"
+@operation
+icrash.concepts.primarytypes.datatypes.dtPhoneCode.is
+"used to determine which strings are considered as valid dtPhoneCode."
+@endOperations

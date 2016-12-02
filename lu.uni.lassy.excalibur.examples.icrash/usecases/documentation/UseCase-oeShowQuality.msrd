@@ -1,0 +1,18 @@
+@@Use Case Subfunction icrash.usecases.subfunctions.oeShowQuality
+@description ""
+@protocolCondition
+"
+"
+@endProtocolConditions
+@preCondition
+"
+"
+@endPreConditions
+@postCondition
+"
+"
+@endPostConditions
+@additionalInformation
+"
+none
+"

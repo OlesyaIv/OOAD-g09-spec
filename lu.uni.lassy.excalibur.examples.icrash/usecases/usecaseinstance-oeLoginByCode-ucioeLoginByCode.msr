@@ -1,0 +1,12 @@
+package usecases.ucioeLoginByCode {
+	import icrash.usecases.subfunctions
+
+	Use Case Model {
+
+		use case instance ucioeLoginByCode : subfunction oeLoginByCode{
+			actors {
+				
+			}
+		}
+	}
+}

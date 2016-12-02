@@ -1,0 +1,37 @@
+/*
+@author Олеся Ивашкевич
+@date Fri Dec 02 18:46:20 GMT+03:00 2016
+*/
+
+
+@@Operation
+icrash.environment.actAuthenticated.outactAuthenticated.oeLoginByCode
+//parameters
+@parameter
+icrash.environment.actAuthenticated.outactAuthenticated.oeLoginByCode.AdtLogin
+""
+@parameter
+icrash.environment.actAuthenticated.outactAuthenticated.oeLoginByCode.AdtPhoneCode
+""
+@endParameters
+
+@description "
+ "
+//preProtocol descriptions
+@preP
+" "
+@endPreP
+//preFunctional descriptions
+@preF
+" "
+@endPreF
+//postFunctional descriptions
+@postF 
+" "
+@endPostF
+//postProtocol descriptions
+@postP 
+" "
+@endPostP
+//example
+@example" "

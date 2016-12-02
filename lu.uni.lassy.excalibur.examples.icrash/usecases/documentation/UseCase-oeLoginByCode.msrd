@@ -1,0 +1,21 @@
+@@Use Case Subfunction icrash.usecases.subfunctions.oeLoginByCode
+@description ""
+@parameter icrash.usecases.subfunctions.oeLoginByCode.AdtLogin ""
+@parameter icrash.usecases.subfunctions.oeLoginByCode.AdtPhoneCode ""
+@endParameters
+@protocolCondition
+"
+"
+@endProtocolConditions
+@preCondition
+"
+"
+@endPreConditions
+@postCondition
+"
+"
+@endPostConditions
+@additionalInformation
+"
+none
+"
