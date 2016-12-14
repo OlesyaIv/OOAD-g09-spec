@@ -468,6 +468,8 @@
   <semanticResources>operations/environment/environment-actAuthenticated-oeLoginByCode.msr</semanticResources>
   <semanticResources>operations/environment/documentation/Operation-actAuthenticated-outactAuthenticated-oeLoginByCode.msrd</semanticResources>
   <semanticResources>usecases/usecaseinstance-oeLoginByCode-ucioeLoginByCode.msr</semanticResources>
+  <semanticResources>usecases/documentation/UseCaseInstance-ucioeLoginByCode.msrd</semanticResources>
+  <semanticResources>operations/concepts/documentation/Operation-dtPhoneCode-is.msrd</semanticResources>
   <ownedViews xmi:type="viewpoint:DView" xmi:id="_X0EtsPWqEeSOM9Kfym77Zg">
     <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/lu.uni.lassy.excalibur.ui.viewer/description/excalibur_models.odesign#//@ownedViewpoints[name='msr-viewpoint']"/>
   </ownedViews>

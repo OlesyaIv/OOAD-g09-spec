@@ -23,13 +23,12 @@ icrash.environment.actAuthenticated.outactAuthenticated.oeLogin
 
 //postFunctional descriptions
 @postF 
-" if the login and password provided by the actor correspond to the ones that belong to the ctAuthenticated instance he is related to 
-then a welcome message is sent to the actor after checking the phone code(n.b. the logged status is changed as a post-protocol condition);
-else the actor is notified that he gave incorrect data and all the administrator actors existing in the environement are notified of an intrusion temptative."
+" if the login and password provided by the actor correspond to the ones that belong to the ctAuthenticated instance he is related to.
+After that actor will receive SMS with phone code, which necessary to next step of authentication.
+else the actor is notified that he gave incorrect data and all the administrator actors existing in the environment are notified of an intrusion temptative."
 @endPostF
 
 //postProtocol descriptions
 @postP 
-"if the authentication information is correct then the actor is known to be logged in ! (i.e. the associated ctAuthenticated instance with given login and password is considered logged)"
-
+"if the authentication information is correct, system will generate code in database and send it to user by SMS "
 @endPostP

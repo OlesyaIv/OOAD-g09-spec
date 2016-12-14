@@ -58,6 +58,12 @@ package icrash.usecases.suDeployAndRun {
         bill
         executed instanceof subfunction
               oeLogin("icrashadmin","7WXC1359"){
+              ieSmsSend("+3524666445252","You received this message from ICrash system. To login use this code: 6867") returned to bill
+              }
+              //-----------------------------
+        bill
+        executed instanceof subfunction
+              oeLoginByCode("icrashadmin","1301"){
                 ieMessage('You are logged ! Welcome ...') returned to bill
               }
 //----------------------------------------------------
@@ -97,12 +103,18 @@ package icrash.usecases.suDeployAndRun {
                 returned to steve
               }
 //----------------------------------------------------
+         steve
+        executed instanceof subfunction
+              oeLogin("applepen","kvz2314"){
+                ieMessage('Enter the received code') returned to steve
+              }
+              //-----------------------------
         steve
         executed instanceof subfunction
-              oeLogin("steve","pwdMessirExcalibur2017"){
+              oeLoginByCode("applepen","9701"){
                 ieMessage('You are logged ! Welcome ...') returned to steve
               }
-//----------------------------------------------------
+              //----------------------------------------------------
         steve
         executed instanceof subfunction
               oeGetCrisisSet("pending"){

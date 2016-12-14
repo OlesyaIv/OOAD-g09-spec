@@ -65,6 +65,7 @@ test step ts03oeLogin order 03{
             TheActor : actAdministrator
             AdtLogin:dtLogin
             AdtPassword:dtPassword
+            AdtPhoneNumber:dtPhoneNumber
           }
         constraints{
             TheActor=TheSystem.rnactAdministrator->any2(true)
@@ -91,6 +92,7 @@ test step ts03oeLogin order 03{
             AdtCoordinatorID : dtCoordinatorID
             AdtLogin:dtLogin
             AdtPassword:dtPassword
+            AdtPhoneNumber:dtPhoneNumber
           }
         constraints{
             TheActor = TheSystem.rnactAdministrator->any2(true) 
@@ -103,7 +105,8 @@ test step ts03oeLogin order 03{
           sends to system actAdministrator.outactAdministrator.oeAddCoordinator
                                                                 (AdtCoordinatorID,
                                                                  AdtLogin,
-                                                                 AdtPassword)
+                                                                 AdtPassword,
+																AdtPhoneNumber)
         }
         oracle{
           constraints{

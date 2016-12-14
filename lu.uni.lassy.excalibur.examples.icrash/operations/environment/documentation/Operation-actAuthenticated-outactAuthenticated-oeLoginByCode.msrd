@@ -1,37 +1,38 @@
-/*
-@author Олеся Ивашкевич
-@date Fri Dec 02 18:46:20 GMT+03:00 2016
-*/
-
-
 @@Operation
 icrash.environment.actAuthenticated.outactAuthenticated.oeLoginByCode
 //parameters
 @parameter
 icrash.environment.actAuthenticated.outactAuthenticated.oeLoginByCode.AdtLogin
-""
+"first information used to search an actor, whose code system requires to compare"
 @parameter
 icrash.environment.actAuthenticated.outactAuthenticated.oeLoginByCode.AdtPhoneCode
-""
+"second information used to validate with generated phone code to login the system"
 @endParameters
 
-@description "
- "
+@description
+"sent to request authorization to request access secured system operations."
+
 //preProtocol descriptions
 @preP
-" "
+"the system is started"
+@preP
+"the actor is not already logged in !"
+@preP
+"the actor is already authorized by login and password"
 @endPreP
+
 //preFunctional descriptions
 @preF
-" "
+"the actor entered correct phone code"
 @endPreF
+
 //postFunctional descriptions
 @postF 
-" "
+" if the login and password provided by the actor correspond to the ones that belong to the ctAuthenticated instance he is related to, system
+will request phone code belong to this user from database. After comparing codes user will completely logged in the system"
 @endPostF
+
 //postProtocol descriptions
 @postP 
-" "
+"if the authentication information is correct then the actor is known to be logged in ! (i.e. the associated ctAuthenticated instance with given login and password is considered logged)"
 @endPostP
-//example
-@example" "

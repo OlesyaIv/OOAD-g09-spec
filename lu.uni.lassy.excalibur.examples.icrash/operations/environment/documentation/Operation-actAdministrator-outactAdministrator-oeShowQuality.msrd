@@ -1,18 +1,24 @@
 @@Operation
 icrash.environment.actAdministrator.outactAdministrator.oeShowQuality
-@description "
- "
+@description 
+"shows new dialog window with bar charts of quality results"
 //preProtocol descriptions
+
+
 @preP
-" "
+"the system is started"
+@preP
+"the actor is logged previously and did not log out ! (i.e. the associated ctAdministrator instance is considered logged)"
 @endPreP
+
 //preFunctional descriptions
 @preF
-" "
+"data of charts must exist"
 @endPreF
+
 //postFunctional descriptions
 @postF 
-" "
+"actor will see new dialog window with bar charts of quality results to analyze it. Chart have three sections: satisfaction, maintenance, timeout"
 @endPostF
 //postProtocol descriptions
 @postP 

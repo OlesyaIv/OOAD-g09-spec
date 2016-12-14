@@ -2,9 +2,21 @@ package icrash.operations.concepts.primarytypes.datatypes.dtPhoneCode {
 
 import lu.uni.lassy.messir.libraries.primitives
 		
-	Operation Model {
+Operation Model {
 
-
+		operation: icrash.concepts.primarytypes.datatypes.dtPhoneCode.is():ptBoolean{
+		
+    postF{ 
+    let TheResult: ptBoolean in
+    ( if
+      ( AdtValue.value.length().is(4) )
+      then (TheResult = true)
+      else (TheResult = false)
+      endif
+      result = TheResult
+    )
+}
+		prolog{"src/Operations/Concepts/PrimaryTypesDatatypes/PrimaryTypesDatatypes-dtPhoneCode-is.pl"}
+	}
 }
 }
-

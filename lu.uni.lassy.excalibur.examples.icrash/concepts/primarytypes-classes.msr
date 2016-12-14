@@ -102,7 +102,8 @@ import lu.uni.lassy.messir.libraries.calendar
 				operation init(
 										Aid:dtCoordinatorID ,
 										Alogin:dtLogin ,
-										Apwd:dtPassword ):ptBoolean
+										Apwd:dtPassword, 
+										Aphn:dtPhoneNumber):ptBoolean
 			}
 
 			class ctAdministrator 

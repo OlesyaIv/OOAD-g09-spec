@@ -109,8 +109,8 @@ import lu.uni.lassy.messir.libraries.calendar
 
 			output interface outactAuthenticated{
 				operation oeLogin(AdtLogin:dtLogin , AdtPassword:dtPassword):ptBoolean
-				operation oeLogout():ptBoolean
 				operation oeLoginByCode(AdtLogin:dtLogin, AdtPhoneCode:dtPhoneCode):ptBoolean
+				operation oeLogout():ptBoolean
 			}
 			
 			input interface inactAuthenticated{
