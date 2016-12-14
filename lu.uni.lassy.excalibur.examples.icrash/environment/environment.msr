@@ -37,6 +37,7 @@ import lu.uni.lassy.messir.libraries.calendar
 											
 				operation oeDeleteCoordinator(
 											AdtCoordinatorID:dtCoordinatorID ):ptBoolean
+											
 				operation oeShowQuality():ptBoolean
 			}
 			
